@@ -19,7 +19,7 @@ import lombok.Setter;
 @Entity
 @Table(name = "curso")
 public class Curso {
-	
+	 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int idCurso;
